@@ -9,6 +9,22 @@ English: This project generates an AEST / Australia-Melbourne subscribable `.ics
 - Official page: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 - API used by FIFA frontend: `https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&language=en&count=200`
 
+## Subscribe
+
+Google Calendar -> Other calendars -> + -> From URL:
+
+```text
+https://nicolekiro.github.io/fifa-world-cup-2026-webcal/worldcup2026-aest-v2.ics
+```
+
+Original feed:
+
+```text
+https://nicolekiro.github.io/fifa-world-cup-2026-webcal/worldcup2026-aest.ics
+```
+
+Use the `v2` feed if Google Calendar still shows an older cached copy.
+
 ## Local Build
 
 ```bash

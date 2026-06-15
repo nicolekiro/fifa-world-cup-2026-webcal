@@ -9,6 +9,7 @@ const ICS_PATH = new URL("worldcup2026-aest.ics", OUTPUT_DIR);
 const ICS_V2_PATH = new URL("worldcup2026-aest-v2.ics", OUTPUT_DIR);
 const JSON_PATH = new URL("matches.json", OUTPUT_DIR);
 const INDEX_PATH = new URL("index.html", OUTPUT_DIR);
+const PUBLIC_BASE_URL = "https://nicolekiro.github.io/fifa-world-cup-2026-webcal";
 const TIME_ZONE = "Australia/Melbourne";
 const EXPECTED_MATCH_COUNT = 104;
 const FIFA_COUNTRY_TO_ISO2 = {
@@ -259,10 +260,13 @@ function buildIndex(generatedAt, count) {
 <body>
   <h1>FIFA World Cup 2026 AEST Calendar</h1>
   <p>Generated from FIFA official fixture data.</p>
+  <h2>Google Calendar subscription URL</h2>
+  <p><code>${PUBLIC_BASE_URL}/worldcup2026-aest-v2.ics</code></p>
+  <p>Use Google Calendar -> Other calendars -> + -> From URL.</p>
   <p>Events: ${count}</p>
   <p>Last generated: ${generatedAt.toISOString()}</p>
-  <p><a href="./worldcup2026-aest.ics">Download or subscribe to worldcup2026-aest.ics</a></p>
-  <p><a href="./worldcup2026-aest-v2.ics">Fresh Google Calendar subscription URL: worldcup2026-aest-v2.ics</a></p>
+  <p><a href="./worldcup2026-aest-v2.ics">Fresh subscription feed: worldcup2026-aest-v2.ics</a></p>
+  <p><a href="./worldcup2026-aest.ics">Original subscription feed: worldcup2026-aest.ics</a></p>
   <p>Official source: <a href="${OFFICIAL_FIXTURES_URL}">FIFA Scores & Fixtures</a></p>
 </body>
 </html>
