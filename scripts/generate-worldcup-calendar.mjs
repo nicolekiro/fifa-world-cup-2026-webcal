@@ -10,6 +10,58 @@ const JSON_PATH = new URL("matches.json", OUTPUT_DIR);
 const INDEX_PATH = new URL("index.html", OUTPUT_DIR);
 const TIME_ZONE = "Australia/Melbourne";
 const EXPECTED_MATCH_COUNT = 104;
+const FIFA_COUNTRY_TO_ISO2 = {
+  ALG: "DZ",
+  ARG: "AR",
+  AUS: "AU",
+  AUT: "AT",
+  BEL: "BE",
+  BIH: "BA",
+  BRA: "BR",
+  CAN: "CA",
+  CIV: "CI",
+  COD: "CD",
+  COL: "CO",
+  CPV: "CV",
+  CRO: "HR",
+  CUW: "CW",
+  CZE: "CZ",
+  ECU: "EC",
+  EGY: "EG",
+  ESP: "ES",
+  FRA: "FR",
+  GER: "DE",
+  GHA: "GH",
+  HAI: "HT",
+  IRN: "IR",
+  IRQ: "IQ",
+  JOR: "JO",
+  JPN: "JP",
+  KOR: "KR",
+  KSA: "SA",
+  MAR: "MA",
+  MEX: "MX",
+  NED: "NL",
+  NOR: "NO",
+  NZL: "NZ",
+  PAN: "PA",
+  PAR: "PY",
+  POR: "PT",
+  QAT: "QA",
+  RSA: "ZA",
+  SEN: "SN",
+  SUI: "CH",
+  SWE: "SE",
+  TUN: "TN",
+  TUR: "TR",
+  URU: "UY",
+  USA: "US",
+  UZB: "UZ"
+};
+const FIFA_COUNTRY_TO_FLAG = {
+  ENG: "\u{1F3F4}\u{E0067}\u{E0062}\u{E0065}\u{E006E}\u{E0067}\u{E007F}",
+  SCO: "\u{1F3F4}\u{E0067}\u{E0062}\u{E0073}\u{E0063}\u{E0074}\u{E007F}"
+};
 
 function localizedValue(values, fallback = "") {
   if (!Array.isArray(values)) return fallback;
@@ -20,9 +72,22 @@ function localizedValue(values, fallback = "") {
   );
 }
 
+function flagEmojiFor(team) {
+  const explicitFlag = FIFA_COUNTRY_TO_FLAG[team?.IdCountry];
+  if (explicitFlag) return explicitFlag;
+
+  const iso2 = FIFA_COUNTRY_TO_ISO2[team?.IdCountry];
+  if (!iso2) return "";
+
+  return Array.from(iso2.toUpperCase())
+    .map((letter) => String.fromCodePoint(127397 + letter.charCodeAt(0)))
+    .join("");
+}
+
 function teamLabel(team, placeholder) {
   if (team) {
-    return localizedValue(team.TeamName, team.ShortClubName || team.Abbreviation || "TBD");
+    const name = localizedValue(team.TeamName, team.ShortClubName || team.Abbreviation || "TBD");
+    return [flagEmojiFor(team), name].filter(Boolean).join(" ");
   }
   if (!placeholder) return "TBD";
   if (/^W\d+$/i.test(placeholder)) return `Winner Match ${placeholder.slice(1)}`;
@@ -47,8 +112,8 @@ function summaryFor(match) {
   const away = teamLabel(match.Away, match.PlaceHolderB);
   const score = scoreLabel(match);
   return score
-    ? `FIFA World Cup 2026: ${home}${score} ${away}`
-    : `FIFA World Cup 2026: ${home} vs ${away}`;
+    ? `FIFA ${home}${score} ${away}`
+    : `FIFA ${home} vs ${away}`;
 }
 
 function venueFor(match) {
