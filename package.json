@@ -7,6 +7,6 @@
     "build": "node scripts/generate-worldcup-calendar.mjs"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   }
 }

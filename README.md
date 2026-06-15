@@ -1,73 +1,27 @@
-# FIFA World Cup 2026 AEST Webcal
-
-中文：这个项目从 FIFA 官方赛程 API 生成一个 AEST / Australia-Melbourne 时区的可订阅 `.ics` 日历，形式参考 FourFourTwo 的完整赛程日历。
-
-English: This project generates an AEST / Australia-Melbourne subscribable `.ics` calendar from FIFA's official fixture API, in the spirit of the FourFourTwo full schedule calendar.
-
-## Source
-
-- Official page: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
-- API used by FIFA frontend: `https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&language=en&count=200`
+# FIFA World Cup 2026 AEST Calendar
 
 ## Subscribe
 
 Google Calendar -> Other calendars -> + -> From URL:
 
 ```text
-https://nicolekiro.github.io/fifa-world-cup-2026-webcal/worldcup2026-aest-v2.ics
+https://nicolekiro.github.io/fifa-world-cup-2026-webcal/calendar.ics
 ```
 
-Original feed:
+## Status
 
-```text
-https://nicolekiro.github.io/fifa-world-cup-2026-webcal/worldcup2026-aest.ics
-```
+- Timezone: Australia/Melbourne, AEST during the tournament
+- Events: 104 matches
+- Refresh: every 6 hours via GitHub Actions
+- Titles: `FIFA 🇦🇺 Australia 2-0 🇹🇷 Türkiye`
 
-Use the `v2` feed if Google Calendar still shows an older cached copy.
+## Source
 
-## Local Build
+- Official fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+- FIFA API: `https://api.fifa.com/api/v3/calendar/matches?idCompetition=17&idSeason=285023&language=en&count=200`
+
+## Maintain
 
 ```bash
 npm run build
 ```
-
-Outputs:
-
-- `public/worldcup2026-aest.ics`
-- `public/worldcup2026-aest-v2.ics`
-- `public/matches.json`
-- `public/index.html`
-
-The build fails unless FIFA returns exactly 104 matches.
-
-## GitHub Pages Setup
-
-1. Push this repository to GitHub.
-2. In GitHub, open Settings -> Pages.
-3. Set Source to GitHub Actions.
-4. Run the "Update FIFA World Cup 2026 Calendar" workflow once, or wait for the schedule.
-
-After Pages deploys, subscribe in Google Calendar with:
-
-```text
-https://<github-user>.github.io/<repo>/worldcup2026-aest.ics
-```
-
-If Google Calendar is still showing an older cached copy, remove the old subscribed calendar and add the fresh URL:
-
-```text
-https://<github-user>.github.io/<repo>/worldcup2026-aest-v2.ics
-```
-
-If your calendar app supports `webcal://`, you can also use:
-
-```text
-webcal://<github-user>.github.io/<repo>/worldcup2026-aest.ics
-```
-
-## Notes
-
-- The workflow refreshes every 6 hours.
-- Google Calendar subscription refresh is controlled by Google and may lag by several hours.
-- Event times are emitted with `TZID=Australia/Melbourne`; during the tournament dates this is AEST.
-- Events are transparent so they do not block availability by default.

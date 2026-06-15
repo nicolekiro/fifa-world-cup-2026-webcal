@@ -5,9 +5,7 @@ const API_URL =
 const OFFICIAL_FIXTURES_URL =
   "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures";
 const OUTPUT_DIR = new URL("../public/", import.meta.url);
-const ICS_PATH = new URL("worldcup2026-aest.ics", OUTPUT_DIR);
-const ICS_V2_PATH = new URL("worldcup2026-aest-v2.ics", OUTPUT_DIR);
-const JSON_PATH = new URL("matches.json", OUTPUT_DIR);
+const ICS_PATH = new URL("calendar.ics", OUTPUT_DIR);
 const INDEX_PATH = new URL("index.html", OUTPUT_DIR);
 const PUBLIC_BASE_URL = "https://nicolekiro.github.io/fifa-world-cup-2026-webcal";
 const TIME_ZONE = "Australia/Melbourne";
@@ -261,12 +259,11 @@ function buildIndex(generatedAt, count) {
   <h1>FIFA World Cup 2026 AEST Calendar</h1>
   <p>Generated from FIFA official fixture data.</p>
   <h2>Google Calendar subscription URL</h2>
-  <p><code>${PUBLIC_BASE_URL}/worldcup2026-aest-v2.ics</code></p>
+  <p><code>${PUBLIC_BASE_URL}/calendar.ics</code></p>
   <p>Use Google Calendar -> Other calendars -> + -> From URL.</p>
   <p>Events: ${count}</p>
   <p>Last generated: ${generatedAt.toISOString()}</p>
-  <p><a href="./worldcup2026-aest-v2.ics">Fresh subscription feed: worldcup2026-aest-v2.ics</a></p>
-  <p><a href="./worldcup2026-aest.ics">Original subscription feed: worldcup2026-aest.ics</a></p>
+  <p><a href="./calendar.ics">Open calendar.ics</a></p>
   <p>Official source: <a href="${OFFICIAL_FIXTURES_URL}">FIFA Scores & Fixtures</a></p>
 </body>
 </html>
@@ -280,11 +277,7 @@ if (matches.length !== EXPECTED_MATCH_COUNT) {
 
 const generatedAt = new Date();
 await mkdir(OUTPUT_DIR, { recursive: true });
-const calendar = buildCalendar(matches, generatedAt);
-await writeFile(ICS_PATH, calendar, "utf8");
-await writeFile(ICS_V2_PATH, calendar, "utf8");
-await writeFile(JSON_PATH, `${JSON.stringify({ generatedAt, matches }, null, 2)}\n`, "utf8");
+await writeFile(ICS_PATH, buildCalendar(matches, generatedAt), "utf8");
 await writeFile(INDEX_PATH, buildIndex(generatedAt, matches.length), "utf8");
 
 console.log(`Wrote ${matches.length} matches to ${ICS_PATH.pathname}`);
-console.log(`Wrote fresh subscription copy to ${ICS_V2_PATH.pathname}`);
