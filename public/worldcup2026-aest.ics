@@ -1,0 +1,1475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nicoco//FIFA World Cup 2026 AEST//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FIFA World Cup 2026 (AEST)
+X-WR-TIMEZONE:Australia/Melbourne
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VTIMEZONE
+TZID:Australia/Melbourne
+BEGIN:STANDARD
+DTSTART:20260405T030000
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+TZNAME:AEST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021443@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260612T050000
+DTEND;TZID=Australia/Melbourne:20260612T070000
+SUMMARY:FIFA World Cup 2026: Mexico 2-0 South Africa
+LOCATION:Mexico City Stadium\, Mexico City
+DESCRIPTION:Match 1\\nGroup A\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021441@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260612T120000
+DTEND;TZID=Australia/Melbourne:20260612T140000
+SUMMARY:FIFA World Cup 2026: Korea Republic 2-1 Czechia
+LOCATION:Guadalajara Stadium\, Guadalajara
+DESCRIPTION:Match 2\\nGroup A\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021449@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260613T050000
+DTEND;TZID=Australia/Melbourne:20260613T070000
+SUMMARY:FIFA World Cup 2026: Canada 1-1 Bosnia and Herzegovina
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Match 3\\nGroup B\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021458@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260613T110000
+DTEND;TZID=Australia/Melbourne:20260613T130000
+SUMMARY:FIFA World Cup 2026: USA 4-1 Paraguay
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 4\\nGroup D\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021453@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260614T110000
+DTEND;TZID=Australia/Melbourne:20260614T130000
+SUMMARY:FIFA World Cup 2026: Haiti 0-1 Scotland
+LOCATION:Boston Stadium\, Boston
+DESCRIPTION:Match 5\\nGroup C\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021463@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260614T140000
+DTEND;TZID=Australia/Melbourne:20260614T160000
+SUMMARY:FIFA World Cup 2026: Australia 2-0 Türkiye
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Match 6\\nGroup D\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021456@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260614T080000
+DTEND;TZID=Australia/Melbourne:20260614T100000
+SUMMARY:FIFA World Cup 2026: Brazil 1-1 Morocco
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 7\\nGroup C\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021447@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260614T050000
+DTEND;TZID=Australia/Melbourne:20260614T070000
+SUMMARY:FIFA World Cup 2026: Qatar 1-1 Switzerland
+LOCATION:San Francisco Bay Area Stadium\, San Francisco Bay Area
+DESCRIPTION:Match 8\\nGroup B\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021467@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260615T090000
+DTEND;TZID=Australia/Melbourne:20260615T110000
+SUMMARY:FIFA World Cup 2026: Côte d'Ivoire 1-0 Ecuador
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Match 9\\nGroup E\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021464@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260615T030000
+DTEND;TZID=Australia/Melbourne:20260615T050000
+SUMMARY:FIFA World Cup 2026: Germany 7-1 Curaçao
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Match 10\\nGroup E\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021470@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260615T060000
+DTEND;TZID=Australia/Melbourne:20260615T080000
+SUMMARY:FIFA World Cup 2026: Netherlands 2-2 Japan
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 11\\nGroup F\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021474@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260615T120000
+DTEND;TZID=Australia/Melbourne:20260615T140000
+SUMMARY:FIFA World Cup 2026: Sweden 5-1 Tunisia
+LOCATION:Monterrey Stadium\, Monterrey
+DESCRIPTION:Match 12\\nGroup F\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021486@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260616T080000
+DTEND;TZID=Australia/Melbourne:20260616T100000
+SUMMARY:FIFA World Cup 2026: Saudi Arabia vs Uruguay
+LOCATION:Miami Stadium\, Miami
+DESCRIPTION:Match 13\\nGroup H\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021482@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260616T020000
+DTEND;TZID=Australia/Melbourne:20260616T040000
+SUMMARY:FIFA World Cup 2026: Spain vs Cabo Verde
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 14\\nGroup H\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021476@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260616T110000
+DTEND;TZID=Australia/Melbourne:20260616T130000
+SUMMARY:FIFA World Cup 2026: IR Iran vs New Zealand
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 15\\nGroup G\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021478@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260616T050000
+DTEND;TZID=Australia/Melbourne:20260616T070000
+SUMMARY:FIFA World Cup 2026: Belgium vs Egypt
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Match 16\\nGroup G\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021490@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260617T050000
+DTEND;TZID=Australia/Melbourne:20260617T070000
+SUMMARY:FIFA World Cup 2026: France vs Senegal
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 17\\nGroup I\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021488@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260617T080000
+DTEND;TZID=Australia/Melbourne:20260617T100000
+SUMMARY:FIFA World Cup 2026: Iraq vs Norway
+LOCATION:Boston Stadium\, Boston
+DESCRIPTION:Match 18\\nGroup I\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021496@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260617T110000
+DTEND;TZID=Australia/Melbourne:20260617T130000
+SUMMARY:FIFA World Cup 2026: Argentina vs Algeria
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Match 19\\nGroup J\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021498@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260617T140000
+DTEND;TZID=Australia/Melbourne:20260617T160000
+SUMMARY:FIFA World Cup 2026: Austria vs Jordan
+LOCATION:San Francisco Bay Area Stadium\, San Francisco Bay Area
+DESCRIPTION:Match 20\\nGroup J\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021510@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260618T090000
+DTEND;TZID=Australia/Melbourne:20260618T110000
+SUMMARY:FIFA World Cup 2026: Ghana vs Panama
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Match 21\\nGroup L\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021507@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260618T060000
+DTEND;TZID=Australia/Melbourne:20260618T080000
+SUMMARY:FIFA World Cup 2026: England vs Croatia
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 22\\nGroup L\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021502@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260618T030000
+DTEND;TZID=Australia/Melbourne:20260618T050000
+SUMMARY:FIFA World Cup 2026: Portugal vs Congo DR
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Match 23\\nGroup K\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021504@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260618T120000
+DTEND;TZID=Australia/Melbourne:20260618T140000
+SUMMARY:FIFA World Cup 2026: Uzbekistan vs Colombia
+LOCATION:Mexico City Stadium\, Mexico City
+DESCRIPTION:Match 24\\nGroup K\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021440@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260619T020000
+DTEND;TZID=Australia/Melbourne:20260619T040000
+SUMMARY:FIFA World Cup 2026: Czechia vs South Africa
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 25\\nGroup A\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021446@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260619T050000
+DTEND;TZID=Australia/Melbourne:20260619T070000
+SUMMARY:FIFA World Cup 2026: Switzerland vs Bosnia and Herzegovina
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 26\\nGroup B\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021450@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260619T080000
+DTEND;TZID=Australia/Melbourne:20260619T100000
+SUMMARY:FIFA World Cup 2026: Canada vs Qatar
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Match 27\\nGroup B\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021442@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260619T110000
+DTEND;TZID=Australia/Melbourne:20260619T130000
+SUMMARY:FIFA World Cup 2026: Mexico vs Korea Republic
+LOCATION:Guadalajara Stadium\, Guadalajara
+DESCRIPTION:Match 28\\nGroup A\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021457@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260620T103000
+DTEND;TZID=Australia/Melbourne:20260620T123000
+SUMMARY:FIFA World Cup 2026: Brazil vs Haiti
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Match 29\\nGroup C\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021454@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260620T080000
+DTEND;TZID=Australia/Melbourne:20260620T100000
+SUMMARY:FIFA World Cup 2026: Scotland vs Morocco
+LOCATION:Boston Stadium\, Boston
+DESCRIPTION:Match 30\\nGroup C\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021460@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260620T130000
+DTEND;TZID=Australia/Melbourne:20260620T150000
+SUMMARY:FIFA World Cup 2026: Türkiye vs Paraguay
+LOCATION:San Francisco Bay Area Stadium\, San Francisco Bay Area
+DESCRIPTION:Match 31\\nGroup D\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021462@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260620T050000
+DTEND;TZID=Australia/Melbourne:20260620T070000
+SUMMARY:FIFA World Cup 2026: USA vs Australia
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Match 32\\nGroup D\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021469@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260621T060000
+DTEND;TZID=Australia/Melbourne:20260621T080000
+SUMMARY:FIFA World Cup 2026: Germany vs Côte d'Ivoire
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Match 33\\nGroup E\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021465@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260621T100000
+DTEND;TZID=Australia/Melbourne:20260621T120000
+SUMMARY:FIFA World Cup 2026: Ecuador vs Curaçao
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Match 34\\nGroup E\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021472@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260621T030000
+DTEND;TZID=Australia/Melbourne:20260621T050000
+SUMMARY:FIFA World Cup 2026: Netherlands vs Sweden
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Match 35\\nGroup F\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021475@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260621T140000
+DTEND;TZID=Australia/Melbourne:20260621T160000
+SUMMARY:FIFA World Cup 2026: Tunisia vs Japan
+LOCATION:Monterrey Stadium\, Monterrey
+DESCRIPTION:Match 36\\nGroup F\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021487@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260622T080000
+DTEND;TZID=Australia/Melbourne:20260622T100000
+SUMMARY:FIFA World Cup 2026: Uruguay vs Cabo Verde
+LOCATION:Miami Stadium\, Miami
+DESCRIPTION:Match 37\\nGroup H\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021483@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260622T020000
+DTEND;TZID=Australia/Melbourne:20260622T040000
+SUMMARY:FIFA World Cup 2026: Spain vs Saudi Arabia
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 38\\nGroup H\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021477@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260622T050000
+DTEND;TZID=Australia/Melbourne:20260622T070000
+SUMMARY:FIFA World Cup 2026: Belgium vs IR Iran
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 39\\nGroup G\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021480@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260622T110000
+DTEND;TZID=Australia/Melbourne:20260622T130000
+SUMMARY:FIFA World Cup 2026: New Zealand vs Egypt
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Match 40\\nGroup G\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021491@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260623T100000
+DTEND;TZID=Australia/Melbourne:20260623T120000
+SUMMARY:FIFA World Cup 2026: Norway vs Senegal
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 41\\nGroup I\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021492@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260623T070000
+DTEND;TZID=Australia/Melbourne:20260623T090000
+SUMMARY:FIFA World Cup 2026: France vs Iraq
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Match 42\\nGroup I\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021494@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260623T030000
+DTEND;TZID=Australia/Melbourne:20260623T050000
+SUMMARY:FIFA World Cup 2026: Argentina vs Austria
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 43\\nGroup J\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021499@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260623T130000
+DTEND;TZID=Australia/Melbourne:20260623T150000
+SUMMARY:FIFA World Cup 2026: Jordan vs Algeria
+LOCATION:San Francisco Bay Area Stadium\, San Francisco Bay Area
+DESCRIPTION:Match 44\\nGroup J\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021506@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260624T060000
+DTEND;TZID=Australia/Melbourne:20260624T080000
+SUMMARY:FIFA World Cup 2026: England vs Ghana
+LOCATION:Boston Stadium\, Boston
+DESCRIPTION:Match 45\\nGroup L\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021511@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260624T090000
+DTEND;TZID=Australia/Melbourne:20260624T110000
+SUMMARY:FIFA World Cup 2026: Panama vs Croatia
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Match 46\\nGroup L\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021503@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260624T030000
+DTEND;TZID=Australia/Melbourne:20260624T050000
+SUMMARY:FIFA World Cup 2026: Portugal vs Uzbekistan
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Match 47\\nGroup K\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021501@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260624T120000
+DTEND;TZID=Australia/Melbourne:20260624T140000
+SUMMARY:FIFA World Cup 2026: Colombia vs Congo DR
+LOCATION:Guadalajara Stadium\, Guadalajara
+DESCRIPTION:Match 48\\nGroup K\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021455@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260625T080000
+DTEND;TZID=Australia/Melbourne:20260625T100000
+SUMMARY:FIFA World Cup 2026: Scotland vs Brazil
+LOCATION:Miami Stadium\, Miami
+DESCRIPTION:Match 49\\nGroup C\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021452@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260625T080000
+DTEND;TZID=Australia/Melbourne:20260625T100000
+SUMMARY:FIFA World Cup 2026: Morocco vs Haiti
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 50\\nGroup C\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021451@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260625T050000
+DTEND;TZID=Australia/Melbourne:20260625T070000
+SUMMARY:FIFA World Cup 2026: Switzerland vs Canada
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Match 51\\nGroup B\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021448@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260625T050000
+DTEND;TZID=Australia/Melbourne:20260625T070000
+SUMMARY:FIFA World Cup 2026: Bosnia and Herzegovina vs Qatar
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Match 52\\nGroup B\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021444@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260625T110000
+DTEND;TZID=Australia/Melbourne:20260625T130000
+SUMMARY:FIFA World Cup 2026: Czechia vs Mexico
+LOCATION:Mexico City Stadium\, Mexico City
+DESCRIPTION:Match 53\\nGroup A\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021445@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260625T110000
+DTEND;TZID=Australia/Melbourne:20260625T130000
+SUMMARY:FIFA World Cup 2026: South Africa vs Korea Republic
+LOCATION:Monterrey Stadium\, Monterrey
+DESCRIPTION:Match 54\\nGroup A\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021468@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260626T060000
+DTEND;TZID=Australia/Melbourne:20260626T080000
+SUMMARY:FIFA World Cup 2026: Curaçao vs Côte d'Ivoire
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Match 55\\nGroup E\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021466@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260626T060000
+DTEND;TZID=Australia/Melbourne:20260626T080000
+SUMMARY:FIFA World Cup 2026: Ecuador vs Germany
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 56\\nGroup E\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021471@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260626T090000
+DTEND;TZID=Australia/Melbourne:20260626T110000
+SUMMARY:FIFA World Cup 2026: Japan vs Sweden
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 57\\nGroup F\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021473@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260626T090000
+DTEND;TZID=Australia/Melbourne:20260626T110000
+SUMMARY:FIFA World Cup 2026: Tunisia vs Netherlands
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Match 58\\nGroup F\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021459@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260626T120000
+DTEND;TZID=Australia/Melbourne:20260626T140000
+SUMMARY:FIFA World Cup 2026: Türkiye vs USA
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 59\\nGroup D\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021461@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260626T120000
+DTEND;TZID=Australia/Melbourne:20260626T140000
+SUMMARY:FIFA World Cup 2026: Paraguay vs Australia
+LOCATION:San Francisco Bay Area Stadium\, San Francisco Bay Area
+DESCRIPTION:Match 60\\nGroup D\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021489@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260627T050000
+DTEND;TZID=Australia/Melbourne:20260627T070000
+SUMMARY:FIFA World Cup 2026: Norway vs France
+LOCATION:Boston Stadium\, Boston
+DESCRIPTION:Match 61\\nGroup I\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021493@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260627T050000
+DTEND;TZID=Australia/Melbourne:20260627T070000
+SUMMARY:FIFA World Cup 2026: Senegal vs Iraq
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Match 62\\nGroup I\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021479@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260627T130000
+DTEND;TZID=Australia/Melbourne:20260627T150000
+SUMMARY:FIFA World Cup 2026: Egypt vs IR Iran
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Match 63\\nGroup G\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021481@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260627T130000
+DTEND;TZID=Australia/Melbourne:20260627T150000
+SUMMARY:FIFA World Cup 2026: New Zealand vs Belgium
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Match 64\\nGroup G\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021485@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260627T100000
+DTEND;TZID=Australia/Melbourne:20260627T120000
+SUMMARY:FIFA World Cup 2026: Cabo Verde vs Saudi Arabia
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Match 65\\nGroup H\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021484@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260627T100000
+DTEND;TZID=Australia/Melbourne:20260627T120000
+SUMMARY:FIFA World Cup 2026: Uruguay vs Spain
+LOCATION:Guadalajara Stadium\, Guadalajara
+DESCRIPTION:Match 66\\nGroup H\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021508@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260628T070000
+DTEND;TZID=Australia/Melbourne:20260628T090000
+SUMMARY:FIFA World Cup 2026: Panama vs England
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 67\\nGroup L\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021509@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260628T070000
+DTEND;TZID=Australia/Melbourne:20260628T090000
+SUMMARY:FIFA World Cup 2026: Croatia vs Ghana
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Match 68\\nGroup L\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021497@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260628T120000
+DTEND;TZID=Australia/Melbourne:20260628T140000
+SUMMARY:FIFA World Cup 2026: Algeria vs Austria
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Match 69\\nGroup J\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021495@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260628T120000
+DTEND;TZID=Australia/Melbourne:20260628T140000
+SUMMARY:FIFA World Cup 2026: Jordan vs Argentina
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 70\\nGroup J\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021505@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260628T093000
+DTEND;TZID=Australia/Melbourne:20260628T113000
+SUMMARY:FIFA World Cup 2026: Colombia vs Portugal
+LOCATION:Miami Stadium\, Miami
+DESCRIPTION:Match 71\\nGroup K\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021500@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260628T093000
+DTEND;TZID=Australia/Melbourne:20260628T113000
+SUMMARY:FIFA World Cup 2026: Congo DR vs Uzbekistan
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 72\\nGroup K\\nSource: FIFA official Scores & Fixtures\
+ \nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021518@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260629T050000
+DTEND;TZID=Australia/Melbourne:20260629T070000
+SUMMARY:FIFA World Cup 2026: 2A vs 2B
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 73\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021513@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260630T063000
+DTEND;TZID=Australia/Melbourne:20260630T083000
+SUMMARY:FIFA World Cup 2026: 1E vs 3ABCDF
+LOCATION:Boston Stadium\, Boston
+DESCRIPTION:Match 74\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021522@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260630T110000
+DTEND;TZID=Australia/Melbourne:20260630T130000
+SUMMARY:FIFA World Cup 2026: 1F vs 2C
+LOCATION:Monterrey Stadium\, Monterrey
+DESCRIPTION:Match 75\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021516@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260630T030000
+DTEND;TZID=Australia/Melbourne:20260630T050000
+SUMMARY:FIFA World Cup 2026: 1C vs 2F
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Match 76\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021523@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260701T070000
+DTEND;TZID=Australia/Melbourne:20260701T090000
+SUMMARY:FIFA World Cup 2026: 1I vs 3CDFGH
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 77\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021514@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260701T030000
+DTEND;TZID=Australia/Melbourne:20260701T050000
+SUMMARY:FIFA World Cup 2026: 2E vs 2I
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 78\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021520@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260701T110000
+DTEND;TZID=Australia/Melbourne:20260701T130000
+SUMMARY:FIFA World Cup 2026: 1A vs 3CEFHI
+LOCATION:Mexico City Stadium\, Mexico City
+DESCRIPTION:Match 79\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021512@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260702T020000
+DTEND;TZID=Australia/Melbourne:20260702T040000
+SUMMARY:FIFA World Cup 2026: 1L vs 3EHIJK
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 80\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021524@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260702T100000
+DTEND;TZID=Australia/Melbourne:20260702T120000
+SUMMARY:FIFA World Cup 2026: 1D vs 3BEFIJ
+LOCATION:San Francisco Bay Area Stadium\, San Francisco Bay Area
+DESCRIPTION:Match 81\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021525@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260702T060000
+DTEND;TZID=Australia/Melbourne:20260702T080000
+SUMMARY:FIFA World Cup 2026: 1G vs 3AEHIJ
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Match 82\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021526@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260703T090000
+DTEND;TZID=Australia/Melbourne:20260703T110000
+SUMMARY:FIFA World Cup 2026: 2K vs 2L
+LOCATION:Toronto Stadium\, Toronto
+DESCRIPTION:Match 83\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021519@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260703T050000
+DTEND;TZID=Australia/Melbourne:20260703T070000
+SUMMARY:FIFA World Cup 2026: 1H vs 2J
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 84\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021527@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260703T130000
+DTEND;TZID=Australia/Melbourne:20260703T150000
+SUMMARY:FIFA World Cup 2026: 1B vs 3EFGIJ
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Match 85\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021521@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260704T080000
+DTEND;TZID=Australia/Melbourne:20260704T100000
+SUMMARY:FIFA World Cup 2026: 1J vs 2H
+LOCATION:Miami Stadium\, Miami
+DESCRIPTION:Match 86\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021517@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260704T113000
+DTEND;TZID=Australia/Melbourne:20260704T133000
+SUMMARY:FIFA World Cup 2026: 1K vs 3DEIJL
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Match 87\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021515@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260704T040000
+DTEND;TZID=Australia/Melbourne:20260704T060000
+SUMMARY:FIFA World Cup 2026: 2D vs 2G
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 88\\nRound of 32\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021533@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260705T070000
+DTEND;TZID=Australia/Melbourne:20260705T090000
+SUMMARY:FIFA World Cup 2026: Winner Match 74 vs Winner Match 77
+LOCATION:Philadelphia Stadium\, Philadelphia
+DESCRIPTION:Match 89\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021530@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260705T030000
+DTEND;TZID=Australia/Melbourne:20260705T050000
+SUMMARY:FIFA World Cup 2026: Winner Match 73 vs Winner Match 75
+LOCATION:Houston Stadium\, Houston
+DESCRIPTION:Match 90\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021532@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260706T060000
+DTEND;TZID=Australia/Melbourne:20260706T080000
+SUMMARY:FIFA World Cup 2026: Winner Match 76 vs Winner Match 78
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 91\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021531@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260706T100000
+DTEND;TZID=Australia/Melbourne:20260706T120000
+SUMMARY:FIFA World Cup 2026: Winner Match 79 vs Winner Match 80
+LOCATION:Mexico City Stadium\, Mexico City
+DESCRIPTION:Match 92\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021529@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260707T050000
+DTEND;TZID=Australia/Melbourne:20260707T070000
+SUMMARY:FIFA World Cup 2026: Winner Match 83 vs Winner Match 84
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 93\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021534@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260707T100000
+DTEND;TZID=Australia/Melbourne:20260707T120000
+SUMMARY:FIFA World Cup 2026: Winner Match 81 vs Winner Match 82
+LOCATION:Seattle Stadium\, Seattle
+DESCRIPTION:Match 94\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021528@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260708T020000
+DTEND;TZID=Australia/Melbourne:20260708T040000
+SUMMARY:FIFA World Cup 2026: Winner Match 86 vs Winner Match 88
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 95\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021535@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260708T060000
+DTEND;TZID=Australia/Melbourne:20260708T080000
+SUMMARY:FIFA World Cup 2026: Winner Match 85 vs Winner Match 87
+LOCATION:BC Place Vancouver\, Vancouver
+DESCRIPTION:Match 96\\nRound of 16\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021536@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260710T060000
+DTEND;TZID=Australia/Melbourne:20260710T080000
+SUMMARY:FIFA World Cup 2026: Winner Match 89 vs Winner Match 90
+LOCATION:Boston Stadium\, Boston
+DESCRIPTION:Match 97\\nQuarter-final\\nSource: FIFA official Scores & Fix
+ tures\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicous
+ a2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021538@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260711T050000
+DTEND;TZID=Australia/Melbourne:20260711T070000
+SUMMARY:FIFA World Cup 2026: Winner Match 93 vs Winner Match 94
+LOCATION:Los Angeles Stadium\, Los Angeles
+DESCRIPTION:Match 98\\nQuarter-final\\nSource: FIFA official Scores & Fix
+ tures\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicous
+ a2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021539@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260712T070000
+DTEND;TZID=Australia/Melbourne:20260712T090000
+SUMMARY:FIFA World Cup 2026: Winner Match 91 vs Winner Match 92
+LOCATION:Miami Stadium\, Miami
+DESCRIPTION:Match 99\\nQuarter-final\\nSource: FIFA official Scores & Fix
+ tures\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicous
+ a2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021537@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260712T110000
+DTEND;TZID=Australia/Melbourne:20260712T130000
+SUMMARY:FIFA World Cup 2026: Winner Match 95 vs Winner Match 96
+LOCATION:Kansas City Stadium\, Kansas City
+DESCRIPTION:Match 100\\nQuarter-final\\nSource: FIFA official Scores & Fi
+ xtures\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicou
+ sa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021541@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260715T050000
+DTEND;TZID=Australia/Melbourne:20260715T070000
+SUMMARY:FIFA World Cup 2026: Winner Match 97 vs Winner Match 98
+LOCATION:Dallas Stadium\, Dallas
+DESCRIPTION:Match 101\\nSemi-final\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021540@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260716T050000
+DTEND;TZID=Australia/Melbourne:20260716T070000
+SUMMARY:FIFA World Cup 2026: Winner Match 99 vs Winner Match 100
+LOCATION:Atlanta Stadium\, Atlanta
+DESCRIPTION:Match 102\\nSemi-final\\nSource: FIFA official Scores & Fixtu
+ res\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
+ 026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021542@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260719T070000
+DTEND;TZID=Australia/Melbourne:20260719T090000
+SUMMARY:FIFA World Cup 2026: Loser Match 101 vs Loser Match 102
+LOCATION:Miami Stadium\, Miami
+DESCRIPTION:Match 103\\nPlay-off for third place\\nSource: FIFA official 
+ Scores & Fixtures\\nhttps://www.fifa.com/en/tournaments/mens/worldcup/ca
+ nadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-400021543@nicoco.github.io
+DTSTAMP:20260615T044750Z
+LAST-MODIFIED:20260615T044750Z
+DTSTART;TZID=Australia/Melbourne:20260720T050000
+DTEND;TZID=Australia/Melbourne:20260720T070000
+SUMMARY:FIFA World Cup 2026: Winner Match 101 vs Winner Match 102
+LOCATION:New York/New Jersey Stadium\, New Jersey
+DESCRIPTION:Match 104\\nFinal\\nSource: FIFA official Scores & Fixtures\\
+ nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
