@@ -6,6 +6,7 @@ const OFFICIAL_FIXTURES_URL =
   "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures";
 const OUTPUT_DIR = new URL("../public/", import.meta.url);
 const ICS_PATH = new URL("worldcup2026-aest.ics", OUTPUT_DIR);
+const ICS_V2_PATH = new URL("worldcup2026-aest-v2.ics", OUTPUT_DIR);
 const JSON_PATH = new URL("matches.json", OUTPUT_DIR);
 const INDEX_PATH = new URL("index.html", OUTPUT_DIR);
 const TIME_ZONE = "Australia/Melbourne";
@@ -261,6 +262,7 @@ function buildIndex(generatedAt, count) {
   <p>Events: ${count}</p>
   <p>Last generated: ${generatedAt.toISOString()}</p>
   <p><a href="./worldcup2026-aest.ics">Download or subscribe to worldcup2026-aest.ics</a></p>
+  <p><a href="./worldcup2026-aest-v2.ics">Fresh Google Calendar subscription URL: worldcup2026-aest-v2.ics</a></p>
   <p>Official source: <a href="${OFFICIAL_FIXTURES_URL}">FIFA Scores & Fixtures</a></p>
 </body>
 </html>
@@ -274,8 +276,11 @@ if (matches.length !== EXPECTED_MATCH_COUNT) {
 
 const generatedAt = new Date();
 await mkdir(OUTPUT_DIR, { recursive: true });
-await writeFile(ICS_PATH, buildCalendar(matches, generatedAt), "utf8");
+const calendar = buildCalendar(matches, generatedAt);
+await writeFile(ICS_PATH, calendar, "utf8");
+await writeFile(ICS_V2_PATH, calendar, "utf8");
 await writeFile(JSON_PATH, `${JSON.stringify({ generatedAt, matches }, null, 2)}\n`, "utf8");
 await writeFile(INDEX_PATH, buildIndex(generatedAt, matches.length), "utf8");
 
 console.log(`Wrote ${matches.length} matches to ${ICS_PATH.pathname}`);
+console.log(`Wrote fresh subscription copy to ${ICS_V2_PATH.pathname}`);

@@ -18,6 +18,7 @@ npm run build
 Outputs:
 
 - `public/worldcup2026-aest.ics`
+- `public/worldcup2026-aest-v2.ics`
 - `public/matches.json`
 - `public/index.html`
 
@@ -34,6 +35,12 @@ After Pages deploys, subscribe in Google Calendar with:
 
 ```text
 https://<github-user>.github.io/<repo>/worldcup2026-aest.ics
+```
+
+If Google Calendar is still showing an older cached copy, remove the old subscribed calendar and add the fresh URL:
+
+```text
+https://<github-user>.github.io/<repo>/worldcup2026-aest-v2.ics
 ```
 
 If your calendar app supports `webcal://`, you can also use:
