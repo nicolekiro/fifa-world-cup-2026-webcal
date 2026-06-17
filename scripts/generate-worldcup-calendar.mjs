@@ -8,8 +8,22 @@ const OUTPUT_DIR = new URL("../public/", import.meta.url);
 const ICS_PATH = new URL("calendar.ics", OUTPUT_DIR);
 const INDEX_PATH = new URL("index.html", OUTPUT_DIR);
 const PUBLIC_BASE_URL = "https://nicolekiro.github.io/fifa-world-cup-2026-webcal";
+const FOOTREPLAYS_BASE_URL = "https://www.footreplays.com/international/world-cup-2026";
 const TIME_ZONE = "Australia/Melbourne";
 const EXPECTED_MATCH_COUNT = 104;
+const FOOTREPLAYS_TEAM_NAMES = {
+  BIH: "Bosnia Herzegovina",
+  CIV: "Ivory Coast",
+  CPV: "Cape Verde",
+  CUW: "Curacao",
+  CZE: "Czech Republic",
+  IRN: "Iran",
+  KOR: "South Korea",
+  TUR: "Turkey"
+};
+const FOOTREPLAYS_URL_OVERRIDES = {
+  400021486: "https://www.footreplays.com/international/world-cup-2026/saudi-arabia-vs-uruguay-16-06-2026/"
+};
 const FIFA_COUNTRY_TO_ISO2 = {
   ALG: "DZ",
   ARG: "AR",
@@ -96,6 +110,48 @@ function teamLabel(team, placeholder) {
   return placeholder;
 }
 
+function replayTeamName(team, placeholder) {
+  if (team) {
+    return (
+      FOOTREPLAYS_TEAM_NAMES[team.IdCountry] ||
+      localizedValue(team.TeamName, team.ShortClubName || team.Abbreviation || "TBD")
+    );
+  }
+  return teamLabel(team, placeholder);
+}
+
+function slugify(value) {
+  return String(value)
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-zA-Z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .toLowerCase();
+}
+
+function replayDateFor(date) {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/London",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${byType.day}-${byType.month}-${byType.year}`;
+}
+
+function replayUrlFor(match) {
+  if (FOOTREPLAYS_URL_OVERRIDES[match.IdMatch]) {
+    return FOOTREPLAYS_URL_OVERRIDES[match.IdMatch];
+  }
+
+  const start = new Date(match.Date);
+  const home = slugify(replayTeamName(match.Home, match.PlaceHolderA));
+  const away = slugify(replayTeamName(match.Away, match.PlaceHolderB));
+  return `${FOOTREPLAYS_BASE_URL}/${home}-vs-${away}-${replayDateFor(start)}/`;
+}
+
 function scoreLabel(match) {
   if (match.HomeTeamScore == null || match.AwayTeamScore == null) return "";
 
@@ -178,6 +234,7 @@ function eventFor(match, generatedAt) {
   const description = [
     `Match ${match.MatchNumber}`,
     stage,
+    `Replay: ${replayUrlFor(match)}`,
     "Source: FIFA official Scores & Fixtures",
     OFFICIAL_FIXTURES_URL
   ]
@@ -262,6 +319,7 @@ function buildIndex(generatedAt, count) {
   <p><code>${PUBLIC_BASE_URL}/calendar.ics</code></p>
   <p>Use Google Calendar -> Other calendars -> + -> From URL.</p>
   <p>Events: ${count}</p>
+  <p>Notes include FootReplays replay links.</p>
   <p>Last generated: ${generatedAt.toISOString()}</p>
   <p><a href="./calendar.ics">Open calendar.ics</a></p>
   <p>Official source: <a href="${OFFICIAL_FIXTURES_URL}">FIFA Scores & Fixtures</a></p>
